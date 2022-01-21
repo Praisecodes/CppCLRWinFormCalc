@@ -28,6 +28,10 @@ namespace PraiseCodesApp {
 	private: System::Windows::Forms::Button^ Btn5;
 	private: System::Windows::Forms::Button^ Btn6;
 	private: System::Windows::Forms::Button^ BtnMinus;
+	private: System::Windows::Forms::Button^ Btn7;
+	private: System::Windows::Forms::Button^ Btn8;
+	private: System::Windows::Forms::Button^ Btn9;
+	private: System::Windows::Forms::Button^ BtnTimes;
 
 	protected:
 
@@ -43,6 +47,10 @@ namespace PraiseCodesApp {
 			this->Btn5 = (gcnew System::Windows::Forms::Button());
 			this->Btn6 = (gcnew System::Windows::Forms::Button());
 			this->BtnMinus = (gcnew System::Windows::Forms::Button());
+			this->Btn7 = (gcnew System::Windows::Forms::Button());
+			this->Btn8 = (gcnew System::Windows::Forms::Button());
+			this->Btn9 = (gcnew System::Windows::Forms::Button());
+			this->BtnTimes = (gcnew System::Windows::Forms::Button());
 			this->SuspendLayout();
 			// 
 			// Btn1
@@ -111,6 +119,39 @@ namespace PraiseCodesApp {
 			this->BtnMinus->TabIndex = 7;
 
 			// 
+			// Btn7
+			// 
+			this->Btn7->Location = System::Drawing::Point(0, 250);
+			this->Btn7->Name = L"Btn7";
+			this->Btn7->Size = System::Drawing::Size(75, 80);
+			this->Btn7->TabIndex = 8;
+			this->Btn7->Text = L"7";
+			//
+			// Btn8
+			// 
+			this->Btn8->Location = System::Drawing::Point(75, 250);
+			this->Btn8->Name = L"Btn8";
+			this->Btn8->Size = System::Drawing::Size(75, 80);
+			this->Btn8->Text = L"8";
+			this->Btn8->TabIndex = 9;
+			//
+			// Btn9
+			// 
+			this->Btn9->Location = System::Drawing::Point(150, 250);
+			this->Btn9->Size = System::Drawing::Size(75, 80);
+			this->Btn9->Name = L"Btn9";
+			this->Btn9->Text = L"9";
+			this->Btn9->TabIndex = 10;
+			//
+			// BtnTimes
+			// 
+			this->BtnTimes->Location = System::Drawing::Point(225, 250);
+			this->BtnTimes->Size = System::Drawing::Size(75, 80);
+			this->BtnTimes->Name = L"BtnTimes";
+			this->BtnTimes->Text = L"x";
+			this->BtnTimes->TabIndex = 11;
+
+			// 
 			// MyForm
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
@@ -124,6 +165,10 @@ namespace PraiseCodesApp {
 			this->Controls->Add(this->Btn5);
 			this->Controls->Add(this->Btn6);
 			this->Controls->Add(this->BtnMinus);
+			this->Controls->Add(this->Btn7);
+			this->Controls->Add(this->Btn8);
+			this->Controls->Add(this->Btn9);
+			this->Controls->Add(this->BtnTimes);
 			this->Name = L"MyForm";
 			this->Text = L"Praise Codes App";
 			this->ResumeLayout(false);
