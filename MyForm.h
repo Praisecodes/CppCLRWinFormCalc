@@ -194,6 +194,8 @@ namespace PraiseCodesApp {
 			this->Controls->Add(this->Btn8);
 			this->Controls->Add(this->Btn9);
 			this->Controls->Add(this->BtnTimes);
+			this->Controls->Add(this->Btn0);
+			this->Controls->Add(this->BtnC);
 			this->Name = L"MyForm";
 			this->Text = L"Praise Codes App";
 			this->ResumeLayout(false);
