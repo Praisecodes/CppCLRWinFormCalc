@@ -64,32 +64,32 @@ namespace PraiseCodesApp {
 			// 
 			// Btn1
 			// 
-			this->Btn1->Location = System::Drawing::Point(0, 90);
+			this->Btn1->Location = System::Drawing::Point(0, 88);
 			this->Btn1->Name = L"Btn1";
-			this->Btn1->Size = System::Drawing::Size(75, 80);
+			this->Btn1->Size = System::Drawing::Size(75, 78);
 			this->Btn1->TabIndex = 0;
 			this->Btn1->Text = L"1";
 			//
 			// Btn2
 			// 
-			this->Btn2->Location = System::Drawing::Point(75, 90);
+			this->Btn2->Location = System::Drawing::Point(75, 88);
 			this->Btn2->Name = L"Btn2";
-			this->Btn2->Size = System::Drawing::Size(75, 80);
+			this->Btn2->Size = System::Drawing::Size(75, 78);
 			this->Btn2->Text = L"2";
 			this->Btn2->TabIndex = 1;
 			//
 			// Btn3
 			// 
-			this->Btn3->Location = System::Drawing::Point(150, 90);
-			this->Btn3->Size = System::Drawing::Size(75, 80);
+			this->Btn3->Location = System::Drawing::Point(150, 88);
+			this->Btn3->Size = System::Drawing::Size(75, 78);
 			this->Btn3->Name = L"Btn3";
 			this->Btn3->Text = L"3";
 			this->Btn3->TabIndex = 2;
 			//
 			// BtnAdd
 			// 
-			this->BtnAdd->Location = System::Drawing::Point(225, 90);
-			this->BtnAdd->Size = System::Drawing::Size(75, 80);
+			this->BtnAdd->Location = System::Drawing::Point(225, 88);
+			this->BtnAdd->Size = System::Drawing::Size(75, 78);
 			this->BtnAdd->Name = L"BtnAdd";
 			this->BtnAdd->Text = L"+";
 			this->BtnAdd->TabIndex = 3;
@@ -97,32 +97,32 @@ namespace PraiseCodesApp {
 			// 
 			// Btn4
 			// 
-			this->Btn4->Location = System::Drawing::Point(0, 170);
+			this->Btn4->Location = System::Drawing::Point(0, 166);
 			this->Btn4->Name = L"Btn4";
-			this->Btn4->Size = System::Drawing::Size(75, 80);
+			this->Btn4->Size = System::Drawing::Size(75, 78);
 			this->Btn4->TabIndex = 4;
 			this->Btn4->Text = L"4";
 			//
 			// Btn5
 			// 
-			this->Btn5->Location = System::Drawing::Point(75, 170);
+			this->Btn5->Location = System::Drawing::Point(75, 166);
 			this->Btn5->Name = L"Btn5";
-			this->Btn5->Size = System::Drawing::Size(75, 80);
+			this->Btn5->Size = System::Drawing::Size(75, 78);
 			this->Btn5->Text = L"5";
 			this->Btn5->TabIndex = 5;
 			//
 			// Btn6
 			// 
-			this->Btn6->Location = System::Drawing::Point(150, 170);
-			this->Btn6->Size = System::Drawing::Size(75, 80);
+			this->Btn6->Location = System::Drawing::Point(150, 166);
+			this->Btn6->Size = System::Drawing::Size(75, 78);
 			this->Btn6->Name = L"Btn6";
 			this->Btn6->Text = L"6";
 			this->Btn6->TabIndex = 6;
 			//
 			// BtnMinus
 			// 
-			this->BtnMinus->Location = System::Drawing::Point(225, 170);
-			this->BtnMinus->Size = System::Drawing::Size(75, 80);
+			this->BtnMinus->Location = System::Drawing::Point(225, 166);
+			this->BtnMinus->Size = System::Drawing::Size(75, 78);
 			this->BtnMinus->Name = L"BtnMinus";
 			this->BtnMinus->Text = L"-";
 			this->BtnMinus->TabIndex = 7;
@@ -130,32 +130,32 @@ namespace PraiseCodesApp {
 			// 
 			// Btn7
 			// 
-			this->Btn7->Location = System::Drawing::Point(0, 250);
+			this->Btn7->Location = System::Drawing::Point(0, 244);
 			this->Btn7->Name = L"Btn7";
-			this->Btn7->Size = System::Drawing::Size(75, 80);
+			this->Btn7->Size = System::Drawing::Size(75, 78);
 			this->Btn7->TabIndex = 8;
 			this->Btn7->Text = L"7";
 			//
 			// Btn8
 			// 
-			this->Btn8->Location = System::Drawing::Point(75, 250);
+			this->Btn8->Location = System::Drawing::Point(75, 244);
 			this->Btn8->Name = L"Btn8";
-			this->Btn8->Size = System::Drawing::Size(75, 80);
+			this->Btn8->Size = System::Drawing::Size(75, 78);
 			this->Btn8->Text = L"8";
 			this->Btn8->TabIndex = 9;
 			//
 			// Btn9
 			// 
-			this->Btn9->Location = System::Drawing::Point(150, 250);
-			this->Btn9->Size = System::Drawing::Size(75, 80);
+			this->Btn9->Location = System::Drawing::Point(150, 244);
+			this->Btn9->Size = System::Drawing::Size(75, 78);
 			this->Btn9->Name = L"Btn9";
 			this->Btn9->Text = L"9";
 			this->Btn9->TabIndex = 10;
 			//
 			// BtnTimes
 			// 
-			this->BtnTimes->Location = System::Drawing::Point(225, 250);
-			this->BtnTimes->Size = System::Drawing::Size(75, 80);
+			this->BtnTimes->Location = System::Drawing::Point(225, 244);
+			this->BtnTimes->Size = System::Drawing::Size(75, 78);
 			this->BtnTimes->Name = L"BtnTimes";
 			this->BtnTimes->Text = L"x";
 			this->BtnTimes->TabIndex = 11;
@@ -163,32 +163,32 @@ namespace PraiseCodesApp {
 			// 
 			// BtnC
 			//
-			this->BtnC->Location = System::Drawing::Point(0, 330);
-			this->BtnC->Size = System::Drawing::Size(75, 80);
+			this->BtnC->Location = System::Drawing::Point(0, 322);
+			this->BtnC->Size = System::Drawing::Size(75, 78);
 			this->BtnC->Name = L"BtnC";
 			this->BtnC->Text = L"C";
 			this->BtnC->TabIndex = 12;
 			// 
 			// Btn0
 			//
-			this->Btn0->Location = System::Drawing::Point(75, 330);
-			this->Btn0->Size = System::Drawing::Size(75, 80);
+			this->Btn0->Location = System::Drawing::Point(75, 322);
+			this->Btn0->Size = System::Drawing::Size(75, 78);
 			this->Btn0->Name = L"Btn0";
 			this->Btn0->Text = L"0";
 			this->Btn0->TabIndex = 13;
 			//
 			// BtnDivide
 			//
-			this->BtnDivide->Location = System::Drawing::Point(150, 330);
-			this->BtnDivide->Size = System::Drawing::Size(75, 80);
+			this->BtnDivide->Location = System::Drawing::Point(150, 322);
+			this->BtnDivide->Size = System::Drawing::Size(75, 78);
 			this->BtnDivide->Name = L"BtnDivide";
 			this->BtnDivide->Text = L"/";
 			this->BtnDivide->TabIndex = 14;
 			//
 			// BtnEquals
 			//
-			this->BtnEquals->Location = System::Drawing::Point(225, 330);
-			this->BtnEquals->Size = System::Drawing::Size(75, 80);
+			this->BtnEquals->Location = System::Drawing::Point(225, 322);
+			this->BtnEquals->Size = System::Drawing::Size(75, 78);
 			this->BtnEquals->Name = L"BtnEquals";
 			this->BtnEquals->Text = L"=";
 			this->BtnEquals->TabIndex = 15;
