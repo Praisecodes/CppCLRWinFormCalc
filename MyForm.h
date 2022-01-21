@@ -32,6 +32,10 @@ namespace PraiseCodesApp {
 	private: System::Windows::Forms::Button^ Btn8;
 	private: System::Windows::Forms::Button^ Btn9;
 	private: System::Windows::Forms::Button^ BtnTimes;
+	private: System::Windows::Forms::Button^ BtnC;
+	private: System::Windows::Forms::Button^ Btn0;
+	private: System::Windows::Forms::Button^ BtnDivide;
+	private: System::Windows::Forms::Button^ BtnEquals;
 
 	protected:
 
@@ -51,6 +55,8 @@ namespace PraiseCodesApp {
 			this->Btn8 = (gcnew System::Windows::Forms::Button());
 			this->Btn9 = (gcnew System::Windows::Forms::Button());
 			this->BtnTimes = (gcnew System::Windows::Forms::Button());
+			this->BtnC = (gcnew System::Windows::Forms::Button());
+
 			this->SuspendLayout();
 			// 
 			// Btn1
