@@ -56,6 +56,7 @@ namespace PraiseCodesApp {
 			this->Btn9 = (gcnew System::Windows::Forms::Button());
 			this->BtnTimes = (gcnew System::Windows::Forms::Button());
 			this->BtnC = (gcnew System::Windows::Forms::Button());
+			this->Btn0 = (gcnew System::Windows::Forms::Button());
 
 			this->SuspendLayout();
 			// 
@@ -156,6 +157,24 @@ namespace PraiseCodesApp {
 			this->BtnTimes->Name = L"BtnTimes";
 			this->BtnTimes->Text = L"x";
 			this->BtnTimes->TabIndex = 11;
+
+			// 
+			// BtnC
+			//
+			this->BtnC->Location = System::Drawing::Point(0, 330);
+			this->BtnC->Size = System::Drawing::Size(75, 80);
+			this->BtnC->Name = L"BtnC";
+			this->BtnC->Text = L"C";
+			this->BtnC->TabIndex = 12;
+
+			// 
+			// Btn0
+			//
+			this->Btn0->Location = System::Drawing::Point(75, 330);
+			this->Btn0->Size = System::Drawing::Size(75, 80);
+			this->Btn0->Name = L"Btn0";
+			this->Btn0->Text = L"0";
+			this->Btn0->TabIndex = 13;
 
 			// 
 			// MyForm
