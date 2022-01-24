@@ -99,6 +99,7 @@ namespace PraiseCodesApp {
 			this->Btn2->UseVisualStyleBackColor = false;
 			this->Btn2->Font = (gcnew System::Drawing::Font(L"Tahoma", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
+			this->Btn2->Click += gcnew System::EventHandler(this, &MyForm::Btn2Click);
 			//
 			// Btn3
 			// 
@@ -110,6 +111,7 @@ namespace PraiseCodesApp {
 			this->Btn3->UseVisualStyleBackColor = false;
 			this->Btn3->Font = (gcnew System::Drawing::Font(L"Tahoma", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
+			this->Btn3->Click += gcnew System::EventHandler(this, &MyForm::Btn3Click);
 			//
 			// BtnAdd
 			// 
@@ -121,6 +123,7 @@ namespace PraiseCodesApp {
 			this->BtnAdd->UseVisualStyleBackColor = false;
 			this->BtnAdd->Font = (gcnew System::Drawing::Font(L"Tahoma", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
+			this->BtnAdd->Click += gcnew System::EventHandler(this, &MyForm::BtnAddClick);
 
 			// 
 			// Btn4
@@ -133,6 +136,7 @@ namespace PraiseCodesApp {
 			this->Btn4->UseVisualStyleBackColor = false;
 			this->Btn4->Font = (gcnew System::Drawing::Font(L"Tahoma", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
+			this->Btn4->Click += gcnew System::EventHandler(this, &MyForm::Btn4Click);
 			//
 			// Btn5
 			// 
@@ -144,6 +148,7 @@ namespace PraiseCodesApp {
 			this->Btn5->UseVisualStyleBackColor = false;
 			this->Btn5->Font = (gcnew System::Drawing::Font(L"Tahoma", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
+			this->Btn5->Click += gcnew System::EventHandler(this, &MyForm::Btn5Click);
 			//
 			// Btn6
 			// 
@@ -155,6 +160,7 @@ namespace PraiseCodesApp {
 			this->Btn6->UseVisualStyleBackColor = false;
 			this->Btn6->Font = (gcnew System::Drawing::Font(L"Tahoma", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
+			this->Btn6->Click += gcnew System::EventHandler(this, &MyForm::Btn6Click);
 			//
 			// BtnMinus
 			// 
@@ -166,6 +172,7 @@ namespace PraiseCodesApp {
 			this->BtnMinus->UseVisualStyleBackColor = false;
 			this->BtnMinus->Font = (gcnew System::Drawing::Font(L"Tahoma", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
+			this->BtnMinus->Click += gcnew System::EventHandler(this, &MyForm::BtnMinusClick);
 
 			// 
 			// Btn7
@@ -178,6 +185,7 @@ namespace PraiseCodesApp {
 			this->Btn7->UseVisualStyleBackColor = false;
 			this->Btn7->Font = (gcnew System::Drawing::Font(L"Tahoma", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
+			this->Btn7->Click += gcnew System::EventHandler(this, &MyForm::Btn7Click);
 			//
 			// Btn8
 			// 
@@ -189,6 +197,7 @@ namespace PraiseCodesApp {
 			this->Btn8->UseVisualStyleBackColor = false;
 			this->Btn8->Font = (gcnew System::Drawing::Font(L"Tahoma", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
+			this->Btn8->Click += gcnew System::EventHandler(this, &MyForm::Btn8Click);
 			//
 			// Btn9
 			// 
@@ -200,6 +209,7 @@ namespace PraiseCodesApp {
 			this->Btn9->UseVisualStyleBackColor = false;
 			this->Btn9->Font = (gcnew System::Drawing::Font(L"Tahoma", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
+			this->Btn9->Click += gcnew System::EventHandler(this, &MyForm::Btn9Click);
 			//
 			// BtnTimes
 			// 
@@ -211,6 +221,7 @@ namespace PraiseCodesApp {
 			this->BtnTimes->UseVisualStyleBackColor = false;
 			this->BtnTimes->Font = (gcnew System::Drawing::Font(L"Tahoma", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
+			this->BtnTimes->Click += gcnew System::EventHandler(this, &MyForm::BtnTimesClick);
 
 			// 
 			// BtnC
@@ -223,6 +234,7 @@ namespace PraiseCodesApp {
 			this->BtnC->UseVisualStyleBackColor = false;
 			this->BtnC->Font = (gcnew System::Drawing::Font(L"Tahoma", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
+			this->Btn1->Click += gcnew System::EventHandler(this, &MyForm::Btn1Click);
 			// 
 			// Btn0
 			//
@@ -234,6 +246,7 @@ namespace PraiseCodesApp {
 			this->Btn0->UseVisualStyleBackColor = false;
 			this->Btn0->Font = (gcnew System::Drawing::Font(L"Tahoma", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
+			this->Btn1->Click += gcnew System::EventHandler(this, &MyForm::Btn1Click);
 			//
 			// BtnDivide
 			//
@@ -245,6 +258,7 @@ namespace PraiseCodesApp {
 			this->BtnDivide->UseVisualStyleBackColor = false;
 			this->BtnDivide->Font = (gcnew System::Drawing::Font(L"Tahoma", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
+			this->Btn1->Click += gcnew System::EventHandler(this, &MyForm::Btn1Click);
 			//
 			// BtnEquals
 			//
@@ -256,6 +270,7 @@ namespace PraiseCodesApp {
 			this->BtnEquals->UseVisualStyleBackColor = false;
 			this->BtnEquals->Font = (gcnew System::Drawing::Font(L"Tahoma", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
+			this->Btn1->Click += gcnew System::EventHandler(this, &MyForm::Btn1Click);
 
 			// 
 			// MyForm
@@ -288,8 +303,52 @@ namespace PraiseCodesApp {
 
 		}
 
-		private: System::Void Btn1Click(System::Object^ sender, System::EventArgs^ handle) {
-			Screen->Text = L"1";
-		}
+	private: System::Void Btn1Click(System::Object^ sender, System::EventArgs^ handle) {
+		Screen->Text = L"1";
+	}
+
+	private: System::Void Btn2Click(System::Object^ sender, System::EventArgs^ handle) {
+		Screen->Text = L"2";
+	}
+
+	private: System::Void Btn3Click(System::Object^ sender, System::EventArgs^ handle) {
+	   Screen->Text = L"3";
+	}
+
+	private: System::Void BtnAddClick(System::Object^ sender, System::EventArgs^ handle) {
+		Screen->Text = L"+";
+	}
+
+	private: System::Void Btn4Click(System::Object^ sender, System::EventArgs^ handle) {
+		Screen->Text = L"4";
+	}
+
+	private: System::Void Btn5Click(System::Object^ sender, System::EventArgs^ handle) {
+		Screen->Text = L"5";
+	}
+
+	private: System::Void Btn6Click(System::Object^ sender, System::EventArgs^ handle) {
+		Screen->Text = L"6";
+	}
+
+	private: System::Void BtnMinusClick(System::Object^ sender, System::EventArgs^ handle) {
+		Screen->Text = L"-";
+	}
+
+	private: System::Void Btn7Click(System::Object^ sender, System::EventArgs^ handle) {
+		Screen->Text = L"7";
+	}
+
+	private: System::Void Btn8Click(System::Object^ sender, System::EventArgs^ handle) {
+		Screen->Text = L"8";
+	}
+
+	private: System::Void Btn9Click(System::Object^ sender, System::EventArgs^ handle) {
+		Screen->Text = L"9";
+	}
+
+	private: System::Void BtnTimesClick(System::Object^ sender, System::EventArgs^ handle) {
+		Screen->Text = L"X";
+	}
 	};
 }
