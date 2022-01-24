@@ -304,15 +304,34 @@ namespace PraiseCodesApp {
 		}
 
 	private: System::Void Btn1Click(System::Object^ sender, System::EventArgs^ handle) {
-		Screen->Text = L"1";
+		
+		if (!(Screen->Text == L"0")) {
+			System::String^ text = Screen->Text + L"1";
+			Screen->Text = text;
+		}
+		else {
+			Screen->Text = L"1";
+		}
 	}
 
 	private: System::Void Btn2Click(System::Object^ sender, System::EventArgs^ handle) {
-		Screen->Text = L"2";
+		if (!(Screen->Text == L"0")) {
+			System::String^ text = Screen->Text + L"2";
+			Screen->Text = text;
+		}
+		else {
+			Screen->Text = L"2";
+		}
 	}
 
 	private: System::Void Btn3Click(System::Object^ sender, System::EventArgs^ handle) {
-	   Screen->Text = L"3";
+		if (!(Screen->Text == L"0")) {
+			System::String^ text = Screen->Text + L"3";
+			Screen->Text = text;
+		}
+		else {
+			Screen->Text = L"3";
+		}
 	}
 
 	private: System::Void BtnAddClick(System::Object^ sender, System::EventArgs^ handle) {
@@ -320,15 +339,33 @@ namespace PraiseCodesApp {
 	}
 
 	private: System::Void Btn4Click(System::Object^ sender, System::EventArgs^ handle) {
-		Screen->Text = L"4";
+		if (!(Screen->Text == L"0")) {
+			System::String^ text = Screen->Text + L"4";
+			Screen->Text = text;
+		}
+		else {
+			Screen->Text = L"4";
+		}
 	}
 
 	private: System::Void Btn5Click(System::Object^ sender, System::EventArgs^ handle) {
-		Screen->Text = L"5";
+		if (!(Screen->Text == L"0")) {
+			System::String^ text = Screen->Text + L"5";
+			Screen->Text = text;
+		}
+		else {
+			Screen->Text = L"5";
+		}
 	}
 
 	private: System::Void Btn6Click(System::Object^ sender, System::EventArgs^ handle) {
-		Screen->Text = L"6";
+		if (!(Screen->Text == L"0")) {
+			System::String^ text = Screen->Text + L"6";
+			Screen->Text = text;
+		}
+		else {
+			Screen->Text = L"6";
+		}
 	}
 
 	private: System::Void BtnMinusClick(System::Object^ sender, System::EventArgs^ handle) {
@@ -336,15 +373,33 @@ namespace PraiseCodesApp {
 	}
 
 	private: System::Void Btn7Click(System::Object^ sender, System::EventArgs^ handle) {
-		Screen->Text = L"7";
+		if (!(Screen->Text == L"0")) {
+			System::String^ text = Screen->Text + L"7";
+			Screen->Text = text;
+		}
+		else {
+			Screen->Text = L"7";
+		}
 	}
 
 	private: System::Void Btn8Click(System::Object^ sender, System::EventArgs^ handle) {
-		Screen->Text = L"8";
+		if (!(Screen->Text == L"0")) {
+			System::String^ text = Screen->Text + L"8";
+			Screen->Text = text;
+		}
+		else {
+			Screen->Text = L"8";
+		}
 	}
 
 	private: System::Void Btn9Click(System::Object^ sender, System::EventArgs^ handle) {
-		Screen->Text = L"9";
+		if (!(Screen->Text == L"0")) {
+			System::String^ text = Screen->Text + L"9";
+			Screen->Text = text;
+		}
+		else {
+			Screen->Text = L"9";
+		}
 	}
 
 	private: System::Void BtnTimesClick(System::Object^ sender, System::EventArgs^ handle) {
@@ -356,7 +411,13 @@ namespace PraiseCodesApp {
 	}
 
 	private: System::Void Btn0Click(System::Object^ sender, System::EventArgs^ handle) {
-		Screen->Text = L"0";
+		if (!(Screen->Text == L"0")) {
+			System::String^ text = Screen->Text + L"0";
+			Screen->Text = text;
+		}
+		else {
+			Screen->Text = L"0";
+		}
 	}
 
 	private: System::Void BtnDivideClick(System::Object^ sender, System::EventArgs^ handle) {
