@@ -234,7 +234,7 @@ namespace PraiseCodesApp {
 			this->BtnC->UseVisualStyleBackColor = false;
 			this->BtnC->Font = (gcnew System::Drawing::Font(L"Tahoma", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->Btn1->Click += gcnew System::EventHandler(this, &MyForm::Btn1Click);
+			this->BtnC->Click += gcnew System::EventHandler(this, &MyForm::BtnCClick);
 			// 
 			// Btn0
 			//
@@ -246,7 +246,7 @@ namespace PraiseCodesApp {
 			this->Btn0->UseVisualStyleBackColor = false;
 			this->Btn0->Font = (gcnew System::Drawing::Font(L"Tahoma", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->Btn1->Click += gcnew System::EventHandler(this, &MyForm::Btn1Click);
+			this->Btn0->Click += gcnew System::EventHandler(this, &MyForm::Btn0Click);
 			//
 			// BtnDivide
 			//
@@ -258,7 +258,7 @@ namespace PraiseCodesApp {
 			this->BtnDivide->UseVisualStyleBackColor = false;
 			this->BtnDivide->Font = (gcnew System::Drawing::Font(L"Tahoma", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->Btn1->Click += gcnew System::EventHandler(this, &MyForm::Btn1Click);
+			this->BtnDivide->Click += gcnew System::EventHandler(this, &MyForm::BtnDivideClick);
 			//
 			// BtnEquals
 			//
@@ -270,7 +270,7 @@ namespace PraiseCodesApp {
 			this->BtnEquals->UseVisualStyleBackColor = false;
 			this->BtnEquals->Font = (gcnew System::Drawing::Font(L"Tahoma", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->Btn1->Click += gcnew System::EventHandler(this, &MyForm::Btn1Click);
+			this->BtnEquals->Click += gcnew System::EventHandler(this, &MyForm::BtnEqualsClick);
 
 			// 
 			// MyForm
@@ -348,7 +348,23 @@ namespace PraiseCodesApp {
 	}
 
 	private: System::Void BtnTimesClick(System::Object^ sender, System::EventArgs^ handle) {
-		Screen->Text = L"X";
+		Screen->Text = L"x";
+	}
+
+	private: System::Void BtnCClick(System::Object^ sender, System::EventArgs^ handle) {
+		Screen->Text = L"0";
+	}
+
+	private: System::Void Btn0Click(System::Object^ sender, System::EventArgs^ handle) {
+		Screen->Text = L"0";
+	}
+
+	private: System::Void BtnDivideClick(System::Object^ sender, System::EventArgs^ handle) {
+		Screen->Text = L"/";
+	}
+
+	private: System::Void BtnEqualsClick(System::Object^ sender, System::EventArgs^ handle) {
+		Screen->Text = L"=";
 	}
 	};
 }
