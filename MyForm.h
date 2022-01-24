@@ -82,7 +82,7 @@ namespace PraiseCodesApp {
 			this->Btn1->TabIndex = 0;
 			this->Btn1->Text = L"1";
 			this->Btn1->UseVisualStyleBackColor = false;
-			this->Screen->Font = (gcnew System::Drawing::Font(L"Tahoma", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->Btn1->Font = (gcnew System::Drawing::Font(L"Tahoma", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			//
 			// Btn2
@@ -93,7 +93,7 @@ namespace PraiseCodesApp {
 			this->Btn2->Text = L"2";
 			this->Btn2->TabIndex = 1;
 			this->Btn2->UseVisualStyleBackColor = false;
-			this->Screen->Font = (gcnew System::Drawing::Font(L"Tahoma", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->Btn2->Font = (gcnew System::Drawing::Font(L"Tahoma", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			//
 			// Btn3
@@ -104,7 +104,7 @@ namespace PraiseCodesApp {
 			this->Btn3->Text = L"3";
 			this->Btn3->TabIndex = 2;
 			this->Btn3->UseVisualStyleBackColor = false;
-			this->Screen->Font = (gcnew System::Drawing::Font(L"Tahoma", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->Btn3->Font = (gcnew System::Drawing::Font(L"Tahoma", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			//
 			// BtnAdd
@@ -115,7 +115,7 @@ namespace PraiseCodesApp {
 			this->BtnAdd->Text = L"+";
 			this->BtnAdd->TabIndex = 3;
 			this->BtnAdd->UseVisualStyleBackColor = false;
-			this->Screen->Font = (gcnew System::Drawing::Font(L"Tahoma", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->BtnAdd->Font = (gcnew System::Drawing::Font(L"Tahoma", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 
 			// 
@@ -127,7 +127,7 @@ namespace PraiseCodesApp {
 			this->Btn4->TabIndex = 4;
 			this->Btn4->Text = L"4";
 			this->Btn4->UseVisualStyleBackColor = false;
-			this->Screen->Font = (gcnew System::Drawing::Font(L"Tahoma", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->Btn4->Font = (gcnew System::Drawing::Font(L"Tahoma", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			//
 			// Btn5
@@ -138,7 +138,7 @@ namespace PraiseCodesApp {
 			this->Btn5->Text = L"5";
 			this->Btn5->TabIndex = 5;
 			this->Btn5->UseVisualStyleBackColor = false;
-			this->Screen->Font = (gcnew System::Drawing::Font(L"Tahoma", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->Btn5->Font = (gcnew System::Drawing::Font(L"Tahoma", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			//
 			// Btn6
@@ -149,7 +149,7 @@ namespace PraiseCodesApp {
 			this->Btn6->Text = L"6";
 			this->Btn6->TabIndex = 6;
 			this->Btn6->UseVisualStyleBackColor = false;
-			this->Screen->Font = (gcnew System::Drawing::Font(L"Tahoma", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->Btn6->Font = (gcnew System::Drawing::Font(L"Tahoma", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			//
 			// BtnMinus
@@ -160,7 +160,7 @@ namespace PraiseCodesApp {
 			this->BtnMinus->Text = L"-";
 			this->BtnMinus->TabIndex = 7;
 			this->BtnMinus->UseVisualStyleBackColor = false;
-			this->Screen->Font = (gcnew System::Drawing::Font(L"Tahoma", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->BtnMinus->Font = (gcnew System::Drawing::Font(L"Tahoma", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 
 			// 
@@ -172,7 +172,7 @@ namespace PraiseCodesApp {
 			this->Btn7->TabIndex = 8;
 			this->Btn7->Text = L"7";
 			this->Btn7->UseVisualStyleBackColor = false;
-			this->Screen->Font = (gcnew System::Drawing::Font(L"Tahoma", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->Btn7->Font = (gcnew System::Drawing::Font(L"Tahoma", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			//
 			// Btn8
@@ -183,7 +183,7 @@ namespace PraiseCodesApp {
 			this->Btn8->Text = L"8";
 			this->Btn8->TabIndex = 9;
 			this->Btn8->UseVisualStyleBackColor = false;
-			this->Screen->Font = (gcnew System::Drawing::Font(L"Tahoma", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->Btn8->Font = (gcnew System::Drawing::Font(L"Tahoma", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			//
 			// Btn9
@@ -194,7 +194,7 @@ namespace PraiseCodesApp {
 			this->Btn9->Text = L"9";
 			this->Btn9->TabIndex = 10;
 			this->Btn9->UseVisualStyleBackColor = false;
-			this->Screen->Font = (gcnew System::Drawing::Font(L"Tahoma", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->Btn9->Font = (gcnew System::Drawing::Font(L"Tahoma", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			//
 			// BtnTimes
@@ -205,7 +205,7 @@ namespace PraiseCodesApp {
 			this->BtnTimes->Text = L"x";
 			this->BtnTimes->TabIndex = 11;
 			this->BtnTimes->UseVisualStyleBackColor = false;
-			this->Screen->Font = (gcnew System::Drawing::Font(L"Tahoma", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->BtnTimes->Font = (gcnew System::Drawing::Font(L"Tahoma", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 
 			// 
@@ -217,7 +217,7 @@ namespace PraiseCodesApp {
 			this->BtnC->Text = L"C";
 			this->BtnC->TabIndex = 12;
 			this->BtnC->UseVisualStyleBackColor = false;
-			this->Screen->Font = (gcnew System::Drawing::Font(L"Tahoma", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->BtnC->Font = (gcnew System::Drawing::Font(L"Tahoma", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			// 
 			// Btn0
@@ -228,7 +228,7 @@ namespace PraiseCodesApp {
 			this->Btn0->Text = L"0";
 			this->Btn0->TabIndex = 13;
 			this->Btn0->UseVisualStyleBackColor = false;
-			this->Screen->Font = (gcnew System::Drawing::Font(L"Tahoma", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->Btn0->Font = (gcnew System::Drawing::Font(L"Tahoma", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			//
 			// BtnDivide
@@ -239,7 +239,7 @@ namespace PraiseCodesApp {
 			this->BtnDivide->Text = L"/";
 			this->BtnDivide->TabIndex = 14;
 			this->BtnDivide->UseVisualStyleBackColor = false;
-			this->Screen->Font = (gcnew System::Drawing::Font(L"Tahoma", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->BtnDivide->Font = (gcnew System::Drawing::Font(L"Tahoma", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			//
 			// BtnEquals
@@ -250,7 +250,7 @@ namespace PraiseCodesApp {
 			this->BtnEquals->Text = L"=";
 			this->BtnEquals->TabIndex = 15;
 			this->BtnEquals->UseVisualStyleBackColor = false;
-			this->Screen->Font = (gcnew System::Drawing::Font(L"Tahoma", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->BtnEquals->Font = (gcnew System::Drawing::Font(L"Tahoma", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 
 			// 
