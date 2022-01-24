@@ -303,6 +303,9 @@ namespace PraiseCodesApp {
 
 		}
 
+		double firstDigit = 0, secondDigit = 0, result = 0;
+		char Operators;
+
 	private: System::Void Btn1Click(System::Object^ sender, System::EventArgs^ handle) {
 		
 		if (!(Screen->Text == L"0")) {
@@ -335,7 +338,10 @@ namespace PraiseCodesApp {
 	}
 
 	private: System::Void BtnAddClick(System::Object^ sender, System::EventArgs^ handle) {
-		Screen->Text = L"+";
+		firstDigit = Double::Parse(Screen->Text);
+
+		Operators = '+';
+		Screen->Text = L"0";
 	}
 
 	private: System::Void Btn4Click(System::Object^ sender, System::EventArgs^ handle) {
@@ -369,7 +375,10 @@ namespace PraiseCodesApp {
 	}
 
 	private: System::Void BtnMinusClick(System::Object^ sender, System::EventArgs^ handle) {
-		Screen->Text = L"-";
+		firstDigit = Double::Parse(Screen->Text);
+
+		Operators = '-';
+		Screen->Text = L"0";
 	}
 
 	private: System::Void Btn7Click(System::Object^ sender, System::EventArgs^ handle) {
@@ -403,7 +412,10 @@ namespace PraiseCodesApp {
 	}
 
 	private: System::Void BtnTimesClick(System::Object^ sender, System::EventArgs^ handle) {
-		Screen->Text = L"x";
+		firstDigit = Double::Parse(Screen->Text);
+
+		Operators = 'x';
+		Screen->Text = L"0";
 	}
 
 	private: System::Void BtnCClick(System::Object^ sender, System::EventArgs^ handle) {
@@ -421,7 +433,10 @@ namespace PraiseCodesApp {
 	}
 
 	private: System::Void BtnDivideClick(System::Object^ sender, System::EventArgs^ handle) {
-		Screen->Text = L"/";
+		firstDigit = Double::Parse(Screen->Text);
+
+		Operators = '/';
+		Screen->Text = L"0";
 	}
 
 	private: System::Void BtnEqualsClick(System::Object^ sender, System::EventArgs^ handle) {
