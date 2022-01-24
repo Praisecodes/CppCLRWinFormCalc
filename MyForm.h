@@ -71,7 +71,7 @@ namespace PraiseCodesApp {
 			this->Screen->Name = L"Calc Screen";
 			this->Screen->Multiline = true;
 			this->Screen->ReadOnly = true;
-			this->Screen->Text = L"1";
+			this->Screen->Text = L"0";
 			this->Screen->TabIndex = 16;
 			this->Screen->Font = (gcnew System::Drawing::Font(L"Tahoma", 26, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
@@ -87,6 +87,7 @@ namespace PraiseCodesApp {
 			this->Btn1->UseVisualStyleBackColor = false;
 			this->Btn1->Font = (gcnew System::Drawing::Font(L"Tahoma", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
+			this->Btn1->Click += gcnew System::EventHandler(this, &MyForm::Btn1Click);
 			//
 			// Btn2
 			// 
@@ -285,6 +286,10 @@ namespace PraiseCodesApp {
 			this->ResumeLayout(false);
 			this->PerformLayout();
 
+		}
+
+		private: System::Void Btn1Click(System::Object^ sender, System::EventArgs^ handle) {
+			Screen->Text = L"1";
 		}
 	};
 }
