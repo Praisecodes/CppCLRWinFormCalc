@@ -1,5 +1,7 @@
 #pragma once
 
+#include <Windows.h>
+
 namespace PraiseCodesApp {
 	using namespace System;
 	using namespace System::Windows::Forms;
@@ -440,7 +442,33 @@ namespace PraiseCodesApp {
 	}
 
 	private: System::Void BtnEqualsClick(System::Object^ sender, System::EventArgs^ handle) {
-		Screen->Text = L"=";
+		secondDigit = Double::Parse(Screen->Text);
+
+		if (Operators == '+') {
+			result = firstDigit + secondDigit;
+			Screen->Text = System::Convert::ToString(result);
+		}
+
+		if (Operators == '-') {
+			result = firstDigit - secondDigit;
+			Screen->Text = System::Convert::ToString(result);
+		}
+
+		if (Operators == 'x') {
+			result = firstDigit * secondDigit;
+			Screen->Text = System::Convert::ToString(result);
+		}
+
+		if (Operators == '/') {
+			if (secondDigit == 0) {
+				Screen->Text = L"0";
+			}
+			else {
+				result = firstDigit / secondDigit;
+				Screen->Text = System::Convert::ToString(result);
+			}
+			
+		}
 	}
 	};
 }
