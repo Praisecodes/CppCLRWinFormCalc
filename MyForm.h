@@ -69,8 +69,11 @@ namespace PraiseCodesApp {
 			this->Screen->Location = System::Drawing::Point(0, 0);
 			this->Screen->Size = System::Drawing::Size(300, 88);
 			this->Screen->Name = L"Calc Screen";
+			this->Screen->Multiline = true;
+			this->Screen->ReadOnly = true;
+			this->Screen->Text = L"1";
 			this->Screen->TabIndex = 16;
-			this->Screen->Font = (gcnew System::Drawing::Font(L"Tahoma", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->Screen->Font = (gcnew System::Drawing::Font(L"Tahoma", 26, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 
 			// 
