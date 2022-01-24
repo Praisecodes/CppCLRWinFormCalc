@@ -36,6 +36,7 @@ namespace PraiseCodesApp {
 	private: System::Windows::Forms::Button^ Btn0;
 	private: System::Windows::Forms::Button^ BtnDivide;
 	private: System::Windows::Forms::Button^ BtnEquals;
+	private: System::Windows::Forms::TextBox^ Screen;
 
 	protected:
 
@@ -59,8 +60,19 @@ namespace PraiseCodesApp {
 			this->Btn0 = (gcnew System::Windows::Forms::Button());
 			this->BtnDivide = (gcnew System::Windows::Forms::Button());
 			this->BtnEquals = (gcnew System::Windows::Forms::Button());
+			this->Screen = (gcnew System::Windows::Forms::TextBox());
 
 			this->SuspendLayout();
+			//
+			// Screen
+			//
+			this->Screen->Location = System::Drawing::Point(0, 0);
+			this->Screen->Size = System::Drawing::Size(300, 88);
+			this->Screen->Name = L"Calc Screen";
+			this->Screen->TabIndex = 16;
+			this->Screen->Font = (gcnew System::Drawing::Font(L"Tahoma", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+
 			// 
 			// Btn1
 			// 
@@ -69,6 +81,7 @@ namespace PraiseCodesApp {
 			this->Btn1->Size = System::Drawing::Size(75, 78);
 			this->Btn1->TabIndex = 0;
 			this->Btn1->Text = L"1";
+			this->Btn1->UseVisualStyleBackColor = false;
 			//
 			// Btn2
 			// 
@@ -77,6 +90,7 @@ namespace PraiseCodesApp {
 			this->Btn2->Size = System::Drawing::Size(75, 78);
 			this->Btn2->Text = L"2";
 			this->Btn2->TabIndex = 1;
+			this->Btn2->UseVisualStyleBackColor = false;
 			//
 			// Btn3
 			// 
@@ -85,6 +99,7 @@ namespace PraiseCodesApp {
 			this->Btn3->Name = L"Btn3";
 			this->Btn3->Text = L"3";
 			this->Btn3->TabIndex = 2;
+			this->Btn3->UseVisualStyleBackColor = false;
 			//
 			// BtnAdd
 			// 
@@ -93,6 +108,7 @@ namespace PraiseCodesApp {
 			this->BtnAdd->Name = L"BtnAdd";
 			this->BtnAdd->Text = L"+";
 			this->BtnAdd->TabIndex = 3;
+			this->BtnAdd->UseVisualStyleBackColor = false;
 
 			// 
 			// Btn4
@@ -102,6 +118,7 @@ namespace PraiseCodesApp {
 			this->Btn4->Size = System::Drawing::Size(75, 78);
 			this->Btn4->TabIndex = 4;
 			this->Btn4->Text = L"4";
+			this->Btn4->UseVisualStyleBackColor = false;
 			//
 			// Btn5
 			// 
@@ -110,6 +127,7 @@ namespace PraiseCodesApp {
 			this->Btn5->Size = System::Drawing::Size(75, 78);
 			this->Btn5->Text = L"5";
 			this->Btn5->TabIndex = 5;
+			this->Btn5->UseVisualStyleBackColor = false;
 			//
 			// Btn6
 			// 
@@ -118,6 +136,7 @@ namespace PraiseCodesApp {
 			this->Btn6->Name = L"Btn6";
 			this->Btn6->Text = L"6";
 			this->Btn6->TabIndex = 6;
+			this->Btn6->UseVisualStyleBackColor = false;
 			//
 			// BtnMinus
 			// 
@@ -126,6 +145,7 @@ namespace PraiseCodesApp {
 			this->BtnMinus->Name = L"BtnMinus";
 			this->BtnMinus->Text = L"-";
 			this->BtnMinus->TabIndex = 7;
+			this->BtnMinus->UseVisualStyleBackColor = false;
 
 			// 
 			// Btn7
@@ -135,6 +155,7 @@ namespace PraiseCodesApp {
 			this->Btn7->Size = System::Drawing::Size(75, 78);
 			this->Btn7->TabIndex = 8;
 			this->Btn7->Text = L"7";
+			this->Btn7->UseVisualStyleBackColor = false;
 			//
 			// Btn8
 			// 
@@ -143,6 +164,7 @@ namespace PraiseCodesApp {
 			this->Btn8->Size = System::Drawing::Size(75, 78);
 			this->Btn8->Text = L"8";
 			this->Btn8->TabIndex = 9;
+			this->Btn8->UseVisualStyleBackColor = false;
 			//
 			// Btn9
 			// 
@@ -151,6 +173,7 @@ namespace PraiseCodesApp {
 			this->Btn9->Name = L"Btn9";
 			this->Btn9->Text = L"9";
 			this->Btn9->TabIndex = 10;
+			this->Btn9->UseVisualStyleBackColor = false;
 			//
 			// BtnTimes
 			// 
@@ -159,6 +182,7 @@ namespace PraiseCodesApp {
 			this->BtnTimes->Name = L"BtnTimes";
 			this->BtnTimes->Text = L"x";
 			this->BtnTimes->TabIndex = 11;
+			this->BtnTimes->UseVisualStyleBackColor = false;
 
 			// 
 			// BtnC
@@ -168,6 +192,7 @@ namespace PraiseCodesApp {
 			this->BtnC->Name = L"BtnC";
 			this->BtnC->Text = L"C";
 			this->BtnC->TabIndex = 12;
+			this->BtnC->UseVisualStyleBackColor = false;
 			// 
 			// Btn0
 			//
@@ -176,6 +201,7 @@ namespace PraiseCodesApp {
 			this->Btn0->Name = L"Btn0";
 			this->Btn0->Text = L"0";
 			this->Btn0->TabIndex = 13;
+			this->Btn0->UseVisualStyleBackColor = false;
 			//
 			// BtnDivide
 			//
@@ -184,6 +210,7 @@ namespace PraiseCodesApp {
 			this->BtnDivide->Name = L"BtnDivide";
 			this->BtnDivide->Text = L"/";
 			this->BtnDivide->TabIndex = 14;
+			this->BtnDivide->UseVisualStyleBackColor = false;
 			//
 			// BtnEquals
 			//
@@ -192,6 +219,7 @@ namespace PraiseCodesApp {
 			this->BtnEquals->Name = L"BtnEquals";
 			this->BtnEquals->Text = L"=";
 			this->BtnEquals->TabIndex = 15;
+			this->BtnEquals->UseVisualStyleBackColor = false;
 
 			// 
 			// MyForm
@@ -215,9 +243,11 @@ namespace PraiseCodesApp {
 			this->Controls->Add(this->BtnC);
 			this->Controls->Add(this->BtnDivide);
 			this->Controls->Add(this->BtnEquals);
+			this->Controls->Add(this->Screen);
 			this->Name = L"MyForm";
 			this->Text = L"Praise Codes App";
 			this->ResumeLayout(false);
+			this->PerformLayout();
 
 		}
 	};
